@@ -4,7 +4,5 @@ main:
     url: https://naldal.github.io/
   - title: "About"
     url: /about/
-  - title: "Tags"
-    url: /tags/
   - title: "Categories"
     url: /categories/
