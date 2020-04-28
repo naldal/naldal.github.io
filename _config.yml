@@ -99,9 +99,6 @@ author:
   location         : "South Korea"
   email            : "cec7777@naver.com"
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: mailto:cec7777@naver.com
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "https://naldal.github.io/"
