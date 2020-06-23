@@ -77,7 +77,6 @@ insertionSort 함수를 살펴보겠다.
 ```
 
 때문에 aux+1 인덱스 자리에 기준값을 넣어주면 정렬이 완료된다.
-
-<br><br><br>
-![]({{ site.url }}{{ site.baseurl }}/assets/images/likeplz.gif)<br>
+<br><br>
+![]({{ site.url }}{{ site.baseurl }}/assets/images/likeplz.gif)<br><br>
 좋아요와 댓글은 포스팅에 큰 힘이 됩니다!
