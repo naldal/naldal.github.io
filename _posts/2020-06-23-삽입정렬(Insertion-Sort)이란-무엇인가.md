@@ -5,17 +5,19 @@ categories:
   - algorithm
   - sort
 ---
+
+
 ![]({{ site.url }}{{ site.baseurl }}/assets/images/insertion.gif){: .align-center}
 
 삽입정렬은 1부터(0아님) n까지 순서대로 index를 설정하여 현재위치보다 앞쪽을 순회하여, 기준 index값보다 큰 값들을 한칸씩 뒤쪽으로 밀고 기준 index보다 작은 값을 만나면 해당 위치에 삽입(insertion)하는 정렬알고리즘이다.
 
 구현하기 까다롭지 않은 알고리즘이지만...
 
-It is much less efficient on large lists than more advanced algorithms such as quicksort, heapsort, or merge sort. 
+> It is much less efficient on large lists than more advanced algorithms such as quicksort, heapsort, or merge sort. 
 
 퀵 정렬, 힙 정렬, 마지 정렬과 같은 고급알고리즘에서 훨씬 효율적이지 못하다는 단점을 가지고 있다.
 
-More efficient in practice than most other simple quadratic (i.e., O(n2)) algorithms such as selection sort or bubble sort
+> More efficient in practice than most other simple quadratic (i.e., O(n2)) algorithms such as selection sort or bubble sort
 
 하지만 실지로 선택정렬이나 버블소트보다 더 효율적이다. 
 
@@ -76,4 +78,7 @@ aux—; 으로 순회하기 때문에 while문 탈출 시 aux는삽입해야 할
 
 때문에 aux+1 인덱스 자리에 기준값을 넣어주면 정렬이 완료된다.
 
-댓글은 포스팅에 큰 힘이 됩니다!
+
+
+
+좋아요와 댓글은 포스팅에 큰 힘이 됩니다!
