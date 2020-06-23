@@ -42,7 +42,7 @@ categories:
         }
     }
 ```
-
+<br><br>
 insertionSort 함수를 살펴보겠다.
 
 ```jsx
