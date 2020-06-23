@@ -1,4 +1,10 @@
-# 삽입정렬(Insertion Sort)이란 무엇인가
+---
+title: 삽입정렬(Insertion Sort)이란 무엇인가
+
+categories:
+  - algorithm
+  - sort
+---
 
 ![Insertion%20Sort%201761007f7a0c4b958bb8e23196fa56df/insertion.gif](Insertion%20Sort%201761007f7a0c4b958bb8e23196fa56df/insertion.gif)
 
