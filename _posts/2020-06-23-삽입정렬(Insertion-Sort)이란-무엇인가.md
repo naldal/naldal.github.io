@@ -6,9 +6,9 @@ categories:
   - sort
 ---
 
-
+<br><br>
 ![]({{ site.url }}{{ site.baseurl }}/assets/images/insertion.gif){: .align-center}
-
+<br>
 삽입정렬은 1부터(0아님) n까지 순서대로 index를 설정하여 현재위치보다 앞쪽을 순회하여, 기준 index값보다 큰 값들을 한칸씩 뒤쪽으로 밀고 기준 index보다 작은 값을 만나면 해당 위치에 삽입(insertion)하는 정렬알고리즘이다.
 
 구현하기 까다롭지 않은 알고리즘이지만...
@@ -78,7 +78,6 @@ aux—; 으로 순회하기 때문에 while문 탈출 시 aux는삽입해야 할
 
 때문에 aux+1 인덱스 자리에 기준값을 넣어주면 정렬이 완료된다.
 
-
-
+<br><br><br><br>
 
 좋아요와 댓글은 포스팅에 큰 힘이 됩니다!
