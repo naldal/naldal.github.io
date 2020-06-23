@@ -24,7 +24,7 @@ categories:
 구현코드는 다음과 같다.
 
 ```jsx
-		public static void main(String[] args) {
+  public static void main(String[] args) {
         int[] arr = {9, 1, 15, 4, 7, 5};
         insertionSort(arr);
         System.out.println(Arrays.toString(arr));
