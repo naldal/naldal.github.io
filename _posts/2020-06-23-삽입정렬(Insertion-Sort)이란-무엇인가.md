@@ -8,7 +8,7 @@ categories:
 
 <br><br>
 ![]({{ site.url }}{{ site.baseurl }}/assets/images/insertion.gif){: .align-center}
-<br>
+<br><br>
 삽입정렬은 1부터(0아님) n까지 순서대로 index를 설정하여 현재위치보다 앞쪽을 순회하여, 기준 index값보다 큰 값들을 한칸씩 뒤쪽으로 밀고 기준 index보다 작은 값을 만나면 해당 위치에 삽입(insertion)하는 정렬알고리즘이다.
 
 구현하기 까다롭지 않은 알고리즘이지만...
