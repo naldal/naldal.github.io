@@ -1,5 +1,3 @@
-# 합병정렬 (Merge Sort)란 무엇인가
-
 ---
 
 title: 합병정렬(Merge Sort)이란 무엇인가
