@@ -42,43 +42,55 @@ categories:
 
 ```jsx
 public class MergeSort {
-    public static int[] arr;
-    public static int[] tmp;
-
+    static int[] tmp;
     public static void main(String[] args) {
-        arr = new int[]{1, 9, 8, 5, 2, 3, 7, 6};
-        tmp = new int[arr.length]; //임시배열 필요
-        mergeSort(0, arr.length-1);
+        int[] arr = new int[]{1, 9, 8, 5, 2, 3, 7, 6};
+        tmp = new int[arr.length];
+        mergeSort(arr, 0, arr.length-1);
         System.out.println(Arrays.toString(arr));
 
     }
 
-    private static void mergeSort(int start, int end) {
-        if (start < end) {
-            int mid = (start+end)/2; // 중간 위치를 계산하여 리스트를 균등 분할(Divide)
-            mergeSort(start, mid); // 앞쪽 부분 리스트 정렬 (Conquer)
-            mergeSort(mid+1, end); // 뒤쪽 부분 리스트 정렬 (Conquer)
-						
-						// p: 정렬된 왼쪽 리스트에 대한 인덱스
-						// q: 정렬된 오른쪽 리스트에 대한 인덱스
-						// idx: 정렬된 리스트에 대한 인덱스
-            int p = start;
-            int q = mid+1;
-            int idx = p;
+    private static void mergeSort(int[] arr, int left, int right) {
+        int mid;
 
-						/* 분할 정렬된 리스트들의 합병 */
-            while (p<=mid || q<=end) {
-                if (arr[p]<=arr[q]){
-                    tmp[idx++] = arr[p++];
-                } else {
-                    tmp[idx++] = arr[q++];
-                }
-            }
+        if (left < right) {
+            mid = (left+right)/2;
+            mergeSort(arr, left, mid);
+            mergeSort(arr, mid+1, right);
+            merge(arr, left, mid, right);
+        }
+    }
 
-						// 임시배열의 리스트를 arr[]로 복사
-            for (int i=start; i<=end; i++) {
-                arr[i] = tmp[i];
+    private static void merge(int[] arr, int left, int mid, int right) {
+        int i , j, k, l;
+        // i: 정렬된 왼쪽 리스트에 대한 인덱스
+        // j: 정렬된 오른쪽 리스트에 대한 인덱스
+        // k: 정렬될 리스트에 대한 인덱스
+        i=left;
+        j=mid+1;
+        k=left;
+
+        while (i<=mid && j<= right) {
+            if (arr[i]<=arr[j]) {
+                tmp[k++] = arr[i++];
+            } else {
+                tmp[k++] = arr[j++];
             }
+        }
+
+        if (i>mid) {
+            for (l=j; l<=right; l++) {
+                tmp[k++] = arr[l];
+            }
+        } else {
+            for (l=i; l<=mid; l++) {
+                tmp[k++] = arr[l];
+            }
+        }
+
+        for (l=left; l<=right; l++) {
+            arr[l] = tmp[l];
         }
     }
 }
