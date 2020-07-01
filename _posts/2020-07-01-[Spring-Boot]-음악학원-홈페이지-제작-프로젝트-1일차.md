@@ -1,11 +1,12 @@
 ---
-title: [Spring Boot] 음악학원 홈페이지 제작 프로젝트 1일차
+title: "[Spring Boot] 음악학원 홈페이지 제작 프로젝트 1일차"
 
 toc: true
 toc_sticky: true
 
 categories:
   - springboot
+  
 tags:
   - AWS
   - 스프링부트
