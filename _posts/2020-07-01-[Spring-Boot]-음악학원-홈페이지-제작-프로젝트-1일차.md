@@ -15,7 +15,7 @@ tags:
 
 <br><br>
 
-[사용기술]
+##사용기술
 
 Backend : Spring Boot 2.1.7
 Frontend : Bootstrap
@@ -66,7 +66,7 @@ dependencies {
     annotationProcessor('org.projectlombok:lombok')
 }
 ```
-
+<br>
 프로젝트는 Maven이 아닌 Gradle로 세팅할 것이다. (솔직히 pom.xml의 너저분한 방식에 질려있었다) 디펜던시는 `spring-boot-starter-web`으로 기본적으로 Tomcat에 올릴 Spring MVC를 이용한 RESTful 서비스 관련 api들을 받아준다. 그리고 `org.assertj:assertj-core:3.11.1`로 강력한 테스트 툴인 [assertj](https://joel-costigliola.github.io/assertj/)를 이용한다. 추가적으로 롬복관련 디펜던시를 받아와주면 초기 빌드작업이 끝난다.
 
 이제 이 프로젝트를 Github과 연동한다. 특히 주의해야 할 점은 `.idea`확장자가 Github에 올라가지 않도록 필히 gitignore에 추가해줘야 한다. `.idea`는 인텔리제이에서 프로젝트를 Import 할 때 쓰이기 때문에 혹여 다른 IDE를 사용중인 개발자가 이를 받아서 실행하는 것을 미연에 방지하는 것이다.
@@ -76,3 +76,5 @@ dependencies {
 ↓ 여기에 계속해서 작업결과가 올라갈 것이다
 
 [https://github.com/naldal/soriel-music-academy](https://github.com/naldal/soriel-music-academy)
+<br>
+<br>
