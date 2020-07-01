@@ -17,13 +17,13 @@ tags:
 
 ##사용기술
 
-Backend : Spring Boot 2.1.7
-Frontend : Bootstrap
-Server Side Template : Mustache
-IDE : Intellij community
-Database : AWS RDS (Maria DB)
-Deploy : AWS EC2, Travis CI
-SCM : Git, Github, SourceTree
+Backend : Spring Boot 2.1.7<br>
+Frontend : Bootstrap<br>
+Server Side Template : Mustache<br>
+IDE : Intellij community<br>
+Database : AWS RDS (Maria DB)<br>
+Deploy : AWS EC2, Travis CI<br>
+SCM : Git, Github, SourceTree<br>
 
   스프링 레거시를 이용한 맛집 예약 웹서비스 프로젝트를 마친지 3개월이 지났다. 그 동안 자료구조와 알고리즘 관련 공부에 집중했고 완벽하게는 아니지만 스스로 만족할만한 성장을 이뤄낸 것 같다. 지금 시작하는 음악학원 웹 서비스 제작 프로젝트는 필자의 어머니로부터 받은 일종의 외주다. (하지만 페이는 없다..) 하지만 스프링 부트를 이용한 무중단 배포서비스에 관심이 많았고, 예제가 아니라 실제적인 나만의 서비스로 구현하고자 하는 욕심이 컸기에 본 프로젝트를 시작했다.
 
