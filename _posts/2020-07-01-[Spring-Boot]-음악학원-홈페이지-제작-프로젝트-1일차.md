@@ -14,8 +14,7 @@ tags:
 ---
 
 <br><br>
-
-##사용기술
+## 사용 기술
 
 Backend : Spring Boot 2.1.7<br>
 Frontend : Bootstrap<br>
